@@ -55,7 +55,7 @@ const ImportCsvModal = (props) => {
                     }
                 </div>}
                 {!startUpdate && confirmUpdate && <div className={styles.confirmUpdate + " animate__animated animate__fadeInDown"}>
-                    <p style={{ color: 'red' }}>Uploading data cannot be stopped once it's started. Continue?</p>
+                    <p style={{ color: 'red' }}>Uploading data cannot be stopped once its started. Continue?</p>
                     <div>
                         <div style={{padding: "0.7rem 2rem"}} onClick={() => showImportModal(false)}>Cancel</div>
                         <div onClick={() => handleUserUpdates()}>Continue</div>
